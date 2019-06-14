@@ -1,4 +1,4 @@
-# useful-linux-stuffs
+# My commands
 
 This repository contains useful `commands` and `how-to` for **GNU/Linux** users.
 
