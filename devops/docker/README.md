@@ -60,7 +60,7 @@ $ docker rm $(docker ps -aq)
 
 1. Solving error: `bind: address already in use`
 
-   Check all the process using the address or `PORT` with the command:
+   Check the process using the address or `PORT` with the command:
   
    ```
    $ sudo netstat -pna | grep <PORT>
