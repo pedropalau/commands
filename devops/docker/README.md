@@ -70,6 +70,8 @@ If you think is save to stop or kill the process running on the same port, you c
 
 ```
 $ sudo kill `sudo lsof -t -i:<PORT>`
+# or
+$ sudo kill $(sudo lsof -t -i:<PORT>)
 ```
 
 ## Resources
