@@ -58,19 +58,19 @@ $ docker rm $(docker ps -aq)
 
 ## Throubleshooting
 
-1. Solving error: `bind: address already in use`
+Solving error: `bind: address already in use`
 
-   Check the process using the address or `PORT` with the command:
-  
-   ```
-   $ sudo netstat -pna | grep <PORT>
-   ```
+Check the process using the address or `PORT` with the command:
 
-   If you think is save to stop or kill the process running on the same port, you can use the following command:
-   
-  ```
-  $ sudo kill `sudo lsof -t -i:<PORT>`
-  ```
+```
+$ sudo netstat -pna | grep <PORT>
+```
+
+If you think is save to stop or kill the process running on the same port, you can use the following command:
+
+```
+$ sudo kill `sudo lsof -t -i:<PORT>`
+```
 
 ## Resources
 
