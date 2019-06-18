@@ -66,6 +66,12 @@ $ docker rm $(docker ps -aq)
    $ sudo netstat -pna | grep <PORT>
    ```
 
+   If you think is save to stop or kill the process running on the same port, you can use the following command:
+   
+  ```
+  $ sudo kill `sudo lsof -t -i:<PORT>`
+  ```
+
 ## Resources
 
 ### OpenSource
