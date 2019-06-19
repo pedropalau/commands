@@ -9,3 +9,17 @@ $ id -u <USERNAME>
 # or
 $ echo $UID
 ```
+
+## Programs
+
+Display all running process:
+
+```
+$ ps aux | less
+```
+
+Display spcific running process:
+
+```
+$ ps aux | grep <NAME>
+```
