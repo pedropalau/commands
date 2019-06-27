@@ -6,6 +6,7 @@ Git is a version control system for tracking changes in computer files and coord
 
 - [Commands](#commands)
   - [Clone specific commit or branch](#clone-specific-commit-or-branch)
+- [Links](#links)
 
 ## Commands
 
@@ -47,3 +48,7 @@ Instead of clone use the fetch command:
 ```
 git fetch origin <SHA-1>
 ```
+
+## Links
+
+- [How to git push without conflict on diverge branch](https://stackoverflow.com/questions/20512468/how-to-git-push-without-conflict-on-diverge-branch) - StackOverflow
