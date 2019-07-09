@@ -5,6 +5,7 @@ This repository contains a compilation of `commands` and `how-to` for **GNU/Linu
 ## Sections
 
 - [General purpose commands](https://github.com/peterpalau/commands/tree/master/general-commands.md)
+- [Web servers](https://github.com/peterpalau/commands/tree/master/web-servers)
 - [Operating Systems](https://github.com/peterpalau/commands/tree/master/operating-systems)
   - [Booting](https://github.com/peterpalau/commands/tree/master/operating-systems/booting)
 - [Programming Languages](https://github.com/peterpalau/commands/tree/master/programming-languages)
