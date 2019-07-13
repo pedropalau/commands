@@ -1,10 +1,16 @@
-## Install Prerequisites
+# Golang programming language
+
+- [Installation](#installation)
+
+## Installation
+
+### Prerequisites
 
 ```
 $ sudo apt install wget git
 ```
 
-## Install Go using Golang installer
+### Golang installer
 
 ```
 $ wget -q https://storage.googleapis.com/golang/getgo/installer_linux
