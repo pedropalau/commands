@@ -5,7 +5,8 @@ Git is a version control system for tracking changes in computer files and coord
 ## Contents
 
 - [Commands](#commands)
-  - [Clone specific commit or branch](#clone-specific-commit-or-branch)
+  - [Cloning](#cloning)
+  - [Dates](#dates)
 - [Links](#links)
 
 ## Commands
@@ -16,7 +17,9 @@ Clone a specific repository
 $ git clone <URL>
 ```
 
-### Clone specific commit or branch
+### Cloning
+
+#### Clone specific commit or branch
 
 Git commands for cloning an existing repository to a specific commit or branch.
 
@@ -48,6 +51,22 @@ Instead of clone use the fetch command:
 ```
 git fetch origin <SHA-1>
 ```
+
+### Dates
+
+#### Set the date of the last commit to the current date
+
+```
+$ GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
+```
+
+#### Set the date of the last commit to a specific date
+
+```
+$ GIT_COMMITTER_DATE="Mon 20 Jul 2019 01:59:20 BST" git commit --amend --no-edit --date "Mon 20 Jul 2019 01:59:20 BST"
+```
+
+More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https://codewithhugo.com/change-the-date-of-a-git-commit/)
 
 ## Links
 
