@@ -59,7 +59,7 @@ git fetch origin <SHA-1>
 ```
 $ GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
 ```
-
+  
 #### Set the date of the last commit to a specific date
 
 ```
