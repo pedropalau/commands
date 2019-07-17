@@ -71,3 +71,4 @@ More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https:/
 ## Links
 
 - [How to git push without conflict on diverge branch](https://stackoverflow.com/questions/20512468/how-to-git-push-without-conflict-on-diverge-branch) - StackOverflow
+- [Why I love Trunk Based Development (or pushing straight to master)](https://medium.com/@mattia.battiston/why-i-love-trunk-based-development-641fcf0b94a0)
