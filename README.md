@@ -10,6 +10,7 @@ This repository contains a compilation of `commands` and `how-to` for **GNU/Linu
   - [Booting](https://github.com/peterpalau/commands/tree/master/operating-systems/booting)
 - [Programming Languages](https://github.com/peterpalau/commands/tree/master/programming-languages)
   - [Go](https://github.com/peterpalau/commands/tree/master/programming-languages/golang)
+  - [Rust](https://github.com/peterpalau/commands/tree/master/programming-languages/rust)
 - [DevOps](https://github.com/peterpalau/commands/tree/master/devops)
   - [Docker](https://github.com/peterpalau/commands/tree/master/devops/docker)
 - [Version Control Systems](https://github.com/peterpalau/commands/tree/master/version-control)
