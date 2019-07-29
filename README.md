@@ -15,3 +15,4 @@ This repository contains a compilation of `commands` and `how-to` for **GNU/Linu
   - [Docker](https://github.com/peterpalau/commands/tree/master/devops/docker)
 - [Version Control Systems](https://github.com/peterpalau/commands/tree/master/version-control)
   - [Git](https://github.com/peterpalau/commands/tree/master/version-control/git)
+- [Package Managers](https://github.com/peterpalau/commands/tree/master/package-managers)
