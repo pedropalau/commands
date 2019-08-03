@@ -16,3 +16,4 @@ This repository contains a compilation of `commands` and `how-to` for **GNU/Linu
 - [Version Control Systems](https://github.com/peterpalau/commands/tree/master/version-control)
   - [Git](https://github.com/peterpalau/commands/tree/master/version-control/git)
 - [Package Managers](https://github.com/peterpalau/commands/tree/master/package-managers)
+  - [Programming Languages](https://github.com/peterpalau/commands/tree/master/package-managers/programming-languages)
