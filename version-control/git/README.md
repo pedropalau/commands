@@ -7,6 +7,7 @@ Git is a version control system for tracking changes in computer files and coord
 - [Commands](#commands)
   - [Cloning](#cloning)
   - [Dates](#dates)
+  - [Fetch](#fetch)
 - [Links](#links)
 
 ## Commands
@@ -67,6 +68,32 @@ $ GIT_COMMITTER_DATE="Mon 20 Jul 2019 01:59:20 BST" git commit --amend --no-edit
 ```
 
 More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https://codewithhugo.com/change-the-date-of-a-git-commit/)
+
+
+### Fetch
+
+#### Pull a certain branch
+
+Fetch the remote branch:
+
+```
+$ git fetch origin <BRANCH-NAME>
+```
+
+Merge it into the current branch:
+
+```
+$ git merge origin/<CURRENT-BRANCH>
+```
+
+* Fix merge conflicts, if they occur
+* Add merge conflict fixes
+
+Commit the merge:
+
+```
+$ git commit
+```
 
 ## Links
 
