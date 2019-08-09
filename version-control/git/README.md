@@ -69,8 +69,9 @@ $ GIT_COMMITTER_DATE="Mon 20 Jul 2019 01:59:20 BST" git commit --amend --no-edit
 
 More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https://codewithhugo.com/change-the-date-of-a-git-commit/)
 
-
 ### Fetch
+
+On its own, `git fetch` updates all the remote tracking branches in local repository. No changes are actually reflected on any of the local working branches.
 
 #### Pull a certain branch
 
