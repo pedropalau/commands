@@ -7,6 +7,7 @@ Git is a version control system for tracking changes in computer files and coord
 - [Commands](#commands)
   - [Cloning](#cloning)
   - [Dates](#dates)
+  - [Pull](#pull)
   - [Fetch](#fetch)
 - [Links](#links)
 
@@ -68,6 +69,10 @@ $ GIT_COMMITTER_DATE="Mon 20 Jul 2019 01:59:20 BST" git commit --amend --no-edit
 ```
 
 More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https://codewithhugo.com/change-the-date-of-a-git-commit/)
+
+### Pull
+
+`git pull` is a combination command, equal to `git fetch` + `git merge`.
 
 ### Fetch
 
