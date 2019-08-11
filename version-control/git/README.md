@@ -9,6 +9,7 @@ Git is a version control system for tracking changes in computer files and coord
   - [Dates](#dates)
   - [Pull](#pull)
   - [Fetch](#fetch)
+  - [Merge](#merge)
 - [Links](#links)
 
 ## Commands
@@ -100,6 +101,10 @@ Commit the merge:
 ```
 $ git commit
 ```
+
+### Merge
+
+Without any arguments, `git merge` will merge the corresponding remote tracking branch to the local working branch.
 
 ## Links
 
