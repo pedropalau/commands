@@ -75,6 +75,12 @@ More info at [https://codewithhugo.com/change-the-date-of-a-git-commit/](https:/
 
 `git pull` is a combination command, equal to `git fetch` + `git merge`.
 
+`git fetch` updates remote tracking branches. 
+
+`git merge` updates the current branch with the corresponding remote tracking branch.
+
+Using `git pull`, you get both parts of these updates. But, this means that if you are checked out to feature branch and you execute `git pull`, when you checkout to `master`, any new updates will not be included. Whenever you checkout to another branch that may have new changes, it’s always a good idea to execute `git pull`.
+
 ### Fetch
 
 On its own, `git fetch` updates all the remote tracking branches in local repository. No changes are actually reflected on any of the local working branches.
