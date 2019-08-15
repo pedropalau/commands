@@ -8,6 +8,7 @@ This repository contains a compilation of `commands` and `how-to` for **GNU/Linu
 - [Web servers](https://github.com/peterpalau/commands/tree/master/web-servers)
 - [Operating Systems](https://github.com/peterpalau/commands/tree/master/operating-systems)
   - [Booting](https://github.com/peterpalau/commands/tree/master/operating-systems/booting)
+  - [SSH](https://github.com/peterpalau/commands/tree/master/operating-systems/ssh/README.md)
 - [Programming Languages](https://github.com/peterpalau/commands/tree/master/programming-languages)
   - [Go](https://github.com/peterpalau/commands/tree/master/programming-languages/golang)
   - [Rust](https://github.com/peterpalau/commands/tree/master/programming-languages/rust)
