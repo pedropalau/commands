@@ -57,3 +57,7 @@ Add your SSH private key to the ssh-agent. If you created your key with a differ
 ```shell
 ssh-add ~/.ssh/id_rsa
 ```
+
+## Work with SSH key passphrases
+
+You can secure your SSH keys and configure an authentication agent so that you won't have to reenter your passphrase every time you use your SSH keys.
